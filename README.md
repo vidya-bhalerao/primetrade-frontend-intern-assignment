@@ -23,4 +23,14 @@ node index.js
 
 ### Frontend
 cd client
-npm start
+npm start           
+## Production Scaling Note
+
+For production:
+- Use environment variables for secrets
+- Deploy backend on cloud (AWS / Render)
+- Use HTTPS
+- Implement rate limiting
+- Add refresh tokens
+- Use Docker for containerization
+
